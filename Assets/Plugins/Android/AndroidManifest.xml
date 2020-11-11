@@ -14,6 +14,15 @@
 		<meta-data android:name="unity.splash-enable" android:value="True" />
 		<meta-data android:name="notch.config" android:value="portrait|landscape" />
 		<meta-data android:name="unity.build-id" android:value="cbb8f93b-16c8-4989-b78e-5f4c9d2afe5e" />
+		<provider
+			android:name="androidx.core.content.FileProvider"
+			android:authorities="com.hoge.abc.fileprovider"
+			android:grantUriPermissions="true"
+			android:exported="false">
+			<meta-data
+					android:name="android.support.FILE_PROVIDER_PATHS"
+					android:resource="@xml/filepaths" />
+		</provider>
 	</application>
 	<uses-feature android:glEsVersion="0x00030000" />
 	<uses-feature android:name="android.hardware.vulkan.version" android:required="false" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+	<!-- アプリが内部、外部Strageどちらでも行けるように両方宣言 -->>
+	<files-path path="." name="file" />
+	<external-path path="." name="external_file" />
+</paths>

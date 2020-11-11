@@ -16,6 +16,7 @@ public class Test : MonoBehaviour
 	static readonly Lazy<AndroidJavaClass> helloWorld =  new Lazy<AndroidJavaClass>(() => new AndroidJavaClass("world.hello.HelloWorldKt"));
 
 	StringBuilder m_Result = new StringBuilder();
+	[SerializeField] Texture2D texture;
 	void OnGUI()
 	{
 		{
@@ -24,21 +25,23 @@ public class Test : MonoBehaviour
 				var text = helloWorld.Value.CallStatic<string>("getText", m_Context.Value, "xxx", 123);
 				Debug.Log(text);
 				m_Result.AppendLine(text);
+
+				var path = Path.Combine(Application.persistentDataPath, "texture.png");
+				File.WriteAllBytes(path, texture.EncodeToPNG());
+				m_Result.AppendLine(path);
+				if(Application.platform != RuntimePlatform.Android)
+				{
+					Application.OpenURL(path);
+				}
+				else
+				{
+					var result = helloWorld.Value.CallStatic<string>("openFile", m_Context.Value, path, "image/*");
+					Debug.Log(result);
+					m_Result.AppendLine(result);
+				}
 			}
 
 			GUI.Label(new Rect(10, 110, Screen.width, 100), m_Result.ToString());
 		}
-	}
-	
-	// Start is called before the first frame update
-	void Start()
-	{
-		
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-		
 	}
 }

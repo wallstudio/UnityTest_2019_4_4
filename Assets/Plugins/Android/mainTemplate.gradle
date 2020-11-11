@@ -8,6 +8,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project('unity-android-resources')
 	implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11'
+    implementation 'androidx.core:core:1.3.2'
 }
 
 android {
