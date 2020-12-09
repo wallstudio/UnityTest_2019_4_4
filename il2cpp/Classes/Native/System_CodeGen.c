@@ -356,329 +356,349 @@ extern void Stopwatch_get_ElapsedTicks_mABB4710231090C75F057E90A29C71C553077A901
 extern void Stopwatch_Start_mF61332B96D7753ADA18366A29E22E2A92E25739A ();
 // 0x000000A8 System.Void System.Diagnostics.Stopwatch::.cctor()
 extern void Stopwatch__cctor_m137C0B2E7182FAEA6E030CD1EDC909E5A3F7A064 ();
-// 0x000000A9 System.Void System.ComponentModel.ArrayConverter::.ctor()
+// 0x000000A9 System.Void System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute::.ctor()
+extern void ExcludeFromCodeCoverageAttribute__ctor_m6A88F20304C2FA71955F81BA5B06887F7C495ECA ();
+// 0x000000AA System.Void System.ComponentModel.ArrayConverter::.ctor()
 extern void ArrayConverter__ctor_m831D145364A55A155BC896935367961A476D53B7 ();
-// 0x000000AA System.Void System.ComponentModel.BooleanConverter::.ctor()
+// 0x000000AB System.Void System.ComponentModel.BooleanConverter::.ctor()
 extern void BooleanConverter__ctor_m8293C29BCB7B90516FFE978C6295C0378C1BFEE4 ();
-// 0x000000AB System.Void System.ComponentModel.CollectionConverter::.ctor()
+// 0x000000AC System.Void System.ComponentModel.CollectionConverter::.ctor()
 extern void CollectionConverter__ctor_m86DBE477F4462418329C5CFB45C86A9420F852E7 ();
-// 0x000000AC System.Void System.ComponentModel.DecimalConverter::.ctor()
+// 0x000000AD System.Void System.ComponentModel.DecimalConverter::.ctor()
 extern void DecimalConverter__ctor_mB015B3871CF834D0C5D8290C9FD15509249921E7 ();
-// 0x000000AD System.Void System.ComponentModel.DoubleConverter::.ctor()
+// 0x000000AE System.Void System.ComponentModel.DoubleConverter::.ctor()
 extern void DoubleConverter__ctor_m419F1E782FFBC765D22792D76E56D54FC94E6AEB ();
-// 0x000000AE System.Void System.ComponentModel.EditorBrowsableAttribute::.ctor(System.ComponentModel.EditorBrowsableState)
+// 0x000000AF System.Void System.ComponentModel.EditorBrowsableAttribute::.ctor(System.ComponentModel.EditorBrowsableState)
 extern void EditorBrowsableAttribute__ctor_mACDE45DF0DCAA6E923120D6AEC45422AEF958C2E ();
-// 0x000000AF System.Boolean System.ComponentModel.EditorBrowsableAttribute::Equals(System.Object)
+// 0x000000B0 System.Boolean System.ComponentModel.EditorBrowsableAttribute::Equals(System.Object)
 extern void EditorBrowsableAttribute_Equals_m6F5EF9CC298CBDC862CBCA5187379A79635726FA ();
-// 0x000000B0 System.Int32 System.ComponentModel.EditorBrowsableAttribute::GetHashCode()
+// 0x000000B1 System.Int32 System.ComponentModel.EditorBrowsableAttribute::GetHashCode()
 extern void EditorBrowsableAttribute_GetHashCode_m74229847CE44E771F282E2E73FFC4DE55771A1B6 ();
-// 0x000000B1 System.Void System.ComponentModel.EnumConverter::.ctor(System.Type)
+// 0x000000B2 System.Void System.ComponentModel.EnumConverter::.ctor(System.Type)
 extern void EnumConverter__ctor_mBA8B2E210D061A3CF86950F6D797E911A2E3C774 ();
-// 0x000000B2 System.Void System.ComponentModel.Int16Converter::.ctor()
+// 0x000000B3 System.Void System.ComponentModel.Int16Converter::.ctor()
 extern void Int16Converter__ctor_mD4D022096E6FB9FFDB84D879E31177A892DD072D ();
-// 0x000000B3 System.Void System.ComponentModel.Int32Converter::.ctor()
+// 0x000000B4 System.Void System.ComponentModel.Int32Converter::.ctor()
 extern void Int32Converter__ctor_m1CD79AE5880FDE2EC91F1D67E567AAA3618D19B9 ();
-// 0x000000B4 System.Void System.ComponentModel.Int64Converter::.ctor()
+// 0x000000B5 System.Void System.ComponentModel.Int64Converter::.ctor()
 extern void Int64Converter__ctor_mE4DC71A97EF110B854F22A48AB0F0D3792B53A74 ();
-// 0x000000B5 System.Void System.ComponentModel.SingleConverter::.ctor()
+// 0x000000B6 System.Void System.ComponentModel.SingleConverter::.ctor()
 extern void SingleConverter__ctor_m8EA7D412C3EE9A9522E7592774DD46EBC6118AA8 ();
-// 0x000000B6 System.Void System.ComponentModel.StringConverter::.ctor()
+// 0x000000B7 System.Void System.ComponentModel.StringConverter::.ctor()
 extern void StringConverter__ctor_m2718AC00691AF4A3AF8A8D64896BE3B5D58658B2 ();
-// 0x000000B7 System.Void System.ComponentModel.TimeSpanConverter::.ctor()
+// 0x000000B8 System.Void System.ComponentModel.TimeSpanConverter::.ctor()
 extern void TimeSpanConverter__ctor_m28E7294174F979EF86FEF9511474B0AB9431217B ();
-// 0x000000B8 System.Void System.ComponentModel.TypeConverter::.ctor()
+// 0x000000B9 System.Void System.ComponentModel.TypeConverter::.ctor()
 extern void TypeConverter__ctor_m7F8A006E775CCB83A8ACB042B296E48B0AE501CD ();
-// 0x000000B9 System.Void System.ComponentModel.TypeConverterAttribute::.ctor()
+// 0x000000BA System.Void System.ComponentModel.TypeConverterAttribute::.ctor()
 extern void TypeConverterAttribute__ctor_mD0795A29B6FD59978CAAC6DAF3AC7EC564C519A5 ();
-// 0x000000BA System.Void System.ComponentModel.TypeConverterAttribute::.ctor(System.Type)
+// 0x000000BB System.Void System.ComponentModel.TypeConverterAttribute::.ctor(System.Type)
 extern void TypeConverterAttribute__ctor_m52D4E66A914F1A04F2F10A7131A701670225D41C ();
-// 0x000000BB System.String System.ComponentModel.TypeConverterAttribute::get_ConverterTypeName()
+// 0x000000BC System.String System.ComponentModel.TypeConverterAttribute::get_ConverterTypeName()
 extern void TypeConverterAttribute_get_ConverterTypeName_m883941C77E14FC5B4A3E32DD8F59F11739D5D6D8 ();
-// 0x000000BC System.Boolean System.ComponentModel.TypeConverterAttribute::Equals(System.Object)
+// 0x000000BD System.Boolean System.ComponentModel.TypeConverterAttribute::Equals(System.Object)
 extern void TypeConverterAttribute_Equals_mDA74DFC28CC7ABC315407EDD1AAC14531C5F6AC4 ();
-// 0x000000BD System.Int32 System.ComponentModel.TypeConverterAttribute::GetHashCode()
+// 0x000000BE System.Int32 System.ComponentModel.TypeConverterAttribute::GetHashCode()
 extern void TypeConverterAttribute_GetHashCode_m35874D49724DA3F72C6C2575FD595A711A659DAA ();
-// 0x000000BE System.Void System.ComponentModel.TypeConverterAttribute::.cctor()
+// 0x000000BF System.Void System.ComponentModel.TypeConverterAttribute::.cctor()
 extern void TypeConverterAttribute__cctor_mB1A775F56A5933A17CF349BD466B0CCE66B1078A ();
-// 0x000000BF System.Void System.ComponentModel.Win32Exception::.ctor()
+// 0x000000C0 System.Void System.ComponentModel.Win32Exception::.ctor()
 extern void Win32Exception__ctor_mC03E215A1695ED64DDC50F4BE9F59966974DF759 ();
-// 0x000000C0 System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32)
+// 0x000000C1 System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32)
 extern void Win32Exception__ctor_m2BEA755F6AA536ADDDF07D83BD8297F02584F714 ();
-// 0x000000C1 System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32,System.String)
+// 0x000000C2 System.Void System.ComponentModel.Win32Exception::.ctor(System.Int32,System.String)
 extern void Win32Exception__ctor_m94A043EE26097BBFE0ED22FD4EBEA357F142EFE6 ();
-// 0x000000C2 System.Void System.ComponentModel.Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000000C3 System.Void System.ComponentModel.Win32Exception::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void Win32Exception__ctor_mC7ADDE9D2FEE4E17432F63C24EF1D872380094DB ();
-// 0x000000C3 System.Void System.ComponentModel.Win32Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x000000C4 System.Void System.ComponentModel.Win32Exception::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void Win32Exception_GetObjectData_m7CD0D7A0806E4A9D8E78ADCBC616700379AB79E8 ();
-// 0x000000C4 System.String System.ComponentModel.Win32Exception::GetErrorMessage(System.Int32)
+// 0x000000C5 System.String System.ComponentModel.Win32Exception::GetErrorMessage(System.Int32)
 extern void Win32Exception_GetErrorMessage_m6085687D868718B45289CB6AF6EDCB7F89D7350D ();
-// 0x000000C5 System.Void System.ComponentModel.Win32Exception::InitializeErrorMessages()
+// 0x000000C6 System.Void System.ComponentModel.Win32Exception::InitializeErrorMessages()
 extern void Win32Exception_InitializeErrorMessages_m4FE6F56C1C2CCB3F6468F0F9F5AD6E1B08673438 ();
-// 0x000000C6 System.Void System.ComponentModel.Win32Exception::.cctor()
+// 0x000000C7 System.Void System.ComponentModel.Win32Exception::.cctor()
 extern void Win32Exception__cctor_m800CD9D0B3E3253B79A19B6646A7D28B29C3FC52 ();
-// 0x000000C7 System.Void System.ComponentModel.BaseNumberConverter::.ctor()
+// 0x000000C8 System.Void System.ComponentModel.BaseNumberConverter::.ctor()
 extern void BaseNumberConverter__ctor_mD78E1C7E1F8A977BC7AD33DB0C1E5E32C60E8E83 ();
-// 0x000000C8 System.Void System.Security.Cryptography.Oid::.ctor(System.String)
+// 0x000000C9 System.Void System.Security.Cryptography.Oid::.ctor(System.String)
 extern void Oid__ctor_m45F49EB1ABFD4F3EB0FC9729C76FF83995752743 ();
-// 0x000000C9 System.Void System.Security.Cryptography.Oid::.ctor(System.String,System.Security.Cryptography.OidGroup,System.Boolean)
+// 0x000000CA System.Void System.Security.Cryptography.Oid::.ctor(System.String,System.Security.Cryptography.OidGroup,System.Boolean)
 extern void Oid__ctor_m67437A59D4E75ABF6E40D503F57F81199546E5EC ();
-// 0x000000CA System.Void System.Security.Cryptography.Oid::.ctor(System.String,System.String)
+// 0x000000CB System.Void System.Security.Cryptography.Oid::.ctor(System.String,System.String)
 extern void Oid__ctor_m0656E1FC1A7E7BBF694A568DDDF8BE4AFA544985 ();
-// 0x000000CB System.Void System.Security.Cryptography.Oid::.ctor(System.Security.Cryptography.Oid)
+// 0x000000CC System.Void System.Security.Cryptography.Oid::.ctor(System.Security.Cryptography.Oid)
 extern void Oid__ctor_mA7AFE14DF30B47447BFFC9E41B37B8DB46C9D079 ();
-// 0x000000CC System.String System.Security.Cryptography.Oid::get_Value()
+// 0x000000CD System.String System.Security.Cryptography.Oid::get_Value()
 extern void Oid_get_Value_mFE18BDFF095DD5A6643F4FEC3E57846716F37F05 ();
-// 0x000000CD System.Void System.Security.Cryptography.Oid::set_Value(System.String)
+// 0x000000CE System.Void System.Security.Cryptography.Oid::set_Value(System.String)
 extern void Oid_set_Value_m304CEF248379566701402100FA015EAC640C033F ();
-// 0x000000CE System.Void System.Security.Cryptography.OidCollection::.ctor()
+// 0x000000CF System.Void System.Security.Cryptography.OidCollection::.ctor()
 extern void OidCollection__ctor_m99B93BB5B35BF7A395CFB7F8B155DFA8DD734800 ();
-// 0x000000CF System.Int32 System.Security.Cryptography.OidCollection::Add(System.Security.Cryptography.Oid)
+// 0x000000D0 System.Int32 System.Security.Cryptography.OidCollection::Add(System.Security.Cryptography.Oid)
 extern void OidCollection_Add_m1FF686421A22A86F8296259D99DA38E02B8BBF5C ();
-// 0x000000D0 System.Security.Cryptography.Oid System.Security.Cryptography.OidCollection::get_Item(System.Int32)
+// 0x000000D1 System.Security.Cryptography.Oid System.Security.Cryptography.OidCollection::get_Item(System.Int32)
 extern void OidCollection_get_Item_mB37F923F4714BFE0DF44E8EE4A1A5EA1F3EBB1D9 ();
-// 0x000000D1 System.Int32 System.Security.Cryptography.OidCollection::get_Count()
+// 0x000000D2 System.Int32 System.Security.Cryptography.OidCollection::get_Count()
 extern void OidCollection_get_Count_m6AC0709CDD68451F4CAC942CE94A5A97F3C294B2 ();
-// 0x000000D2 System.Collections.IEnumerator System.Security.Cryptography.OidCollection::System.Collections.IEnumerable.GetEnumerator()
+// 0x000000D3 System.Collections.IEnumerator System.Security.Cryptography.OidCollection::System.Collections.IEnumerable.GetEnumerator()
 extern void OidCollection_System_Collections_IEnumerable_GetEnumerator_m3FD3A96DFF93BD88A3B28E35A4DEF57AF25ECB30 ();
-// 0x000000D3 System.Void System.Security.Cryptography.OidCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x000000D4 System.Void System.Security.Cryptography.OidCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 extern void OidCollection_System_Collections_ICollection_CopyTo_mE508CB1FD9E56CCFE5A4BDD5251D815BF78AC5A9 ();
-// 0x000000D4 System.Void System.Security.Cryptography.OidEnumerator::.ctor(System.Security.Cryptography.OidCollection)
+// 0x000000D5 System.Void System.Security.Cryptography.OidEnumerator::.ctor(System.Security.Cryptography.OidCollection)
 extern void OidEnumerator__ctor_mCA4FBC8408E2B04FD0A524E256E284E8A44E0797 ();
-// 0x000000D5 System.Object System.Security.Cryptography.OidEnumerator::System.Collections.IEnumerator.get_Current()
+// 0x000000D6 System.Object System.Security.Cryptography.OidEnumerator::System.Collections.IEnumerator.get_Current()
 extern void OidEnumerator_System_Collections_IEnumerator_get_Current_mF11B1F886842EA79EDB215BD5106D0C4C65EBE53 ();
-// 0x000000D6 System.Boolean System.Security.Cryptography.OidEnumerator::MoveNext()
+// 0x000000D7 System.Boolean System.Security.Cryptography.OidEnumerator::MoveNext()
 extern void OidEnumerator_MoveNext_m073D94D5D3254D53DF53429ACAD0AA9BD682221D ();
-// 0x000000D7 System.String System.Security.Cryptography.CAPI::CryptFindOIDInfoNameFromKey(System.String,System.Security.Cryptography.OidGroup)
+// 0x000000D8 System.Void System.Security.Cryptography.OidEnumerator::Reset()
+extern void OidEnumerator_Reset_m5006C3B1283711E2BDDEA6C25FDF93BBB900195E ();
+// 0x000000D9 System.String System.Security.Cryptography.CAPI::CryptFindOIDInfoNameFromKey(System.String,System.Security.Cryptography.OidGroup)
 extern void CAPI_CryptFindOIDInfoNameFromKey_mA2FD2F391E133E586BC8B827DD916613B590E698 ();
-// 0x000000D8 System.String System.Security.Cryptography.CAPI::CryptFindOIDInfoKeyFromName(System.String,System.Security.Cryptography.OidGroup)
+// 0x000000DA System.String System.Security.Cryptography.CAPI::CryptFindOIDInfoKeyFromName(System.String,System.Security.Cryptography.OidGroup)
 extern void CAPI_CryptFindOIDInfoKeyFromName_m7809CD491D913D58FA1B996B835A0A91C413E9DB ();
-// 0x000000D9 System.Void System.Security.Cryptography.AsnEncodedData::.ctor()
+// 0x000000DB System.Void System.Security.Cryptography.AsnEncodedData::.ctor()
 extern void AsnEncodedData__ctor_mED24E9D1F11942741819652302C0531D18C39BE6 ();
-// 0x000000DA System.Void System.Security.Cryptography.AsnEncodedData::set_Oid(System.Security.Cryptography.Oid)
+// 0x000000DC System.Void System.Security.Cryptography.AsnEncodedData::set_Oid(System.Security.Cryptography.Oid)
 extern void AsnEncodedData_set_Oid_m91E38503AAFD8E6FD98970D94FD43E7A738242A6 ();
-// 0x000000DB System.Byte[] System.Security.Cryptography.AsnEncodedData::get_RawData()
+// 0x000000DD System.Byte[] System.Security.Cryptography.AsnEncodedData::get_RawData()
 extern void AsnEncodedData_get_RawData_mB9F8281A96011161C67EB3A9208E26C423B187EC ();
-// 0x000000DC System.Void System.Security.Cryptography.AsnEncodedData::set_RawData(System.Byte[])
+// 0x000000DE System.Void System.Security.Cryptography.AsnEncodedData::set_RawData(System.Byte[])
 extern void AsnEncodedData_set_RawData_mD7FE2383373A6AF578A4983999D677B58BD6B4EC ();
-// 0x000000DD System.Void System.Security.Cryptography.AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+// 0x000000DF System.Void System.Security.Cryptography.AsnEncodedData::CopyFrom(System.Security.Cryptography.AsnEncodedData)
 extern void AsnEncodedData_CopyFrom_m3937C7ACC425960B8E48B7D2EB50E9417A7CD4B7 ();
-// 0x000000DE System.String System.Security.Cryptography.AsnEncodedData::ToString(System.Boolean)
+// 0x000000E0 System.String System.Security.Cryptography.AsnEncodedData::ToString(System.Boolean)
 extern void AsnEncodedData_ToString_m502785F2F8B4D1EBDF5CEE612FD8D0C2044390D7 ();
-// 0x000000DF System.String System.Security.Cryptography.AsnEncodedData::Default(System.Boolean)
+// 0x000000E1 System.String System.Security.Cryptography.AsnEncodedData::Default(System.Boolean)
 extern void AsnEncodedData_Default_mEEA94BA253ED1B8A719466A8152A5333E0E3FF07 ();
-// 0x000000E0 System.String System.Security.Cryptography.AsnEncodedData::BasicConstraintsExtension(System.Boolean)
+// 0x000000E2 System.String System.Security.Cryptography.AsnEncodedData::BasicConstraintsExtension(System.Boolean)
 extern void AsnEncodedData_BasicConstraintsExtension_m64D690A2456E16AF39F6F0784CE74BC9533BB182 ();
-// 0x000000E1 System.String System.Security.Cryptography.AsnEncodedData::EnhancedKeyUsageExtension(System.Boolean)
+// 0x000000E3 System.String System.Security.Cryptography.AsnEncodedData::EnhancedKeyUsageExtension(System.Boolean)
 extern void AsnEncodedData_EnhancedKeyUsageExtension_mE04DC17ACCBF3850AFBA454D9937EC4713CC5058 ();
-// 0x000000E2 System.String System.Security.Cryptography.AsnEncodedData::KeyUsageExtension(System.Boolean)
+// 0x000000E4 System.String System.Security.Cryptography.AsnEncodedData::KeyUsageExtension(System.Boolean)
 extern void AsnEncodedData_KeyUsageExtension_m4EE74EA5C4A3C0B72C50DEB22A537812997AF590 ();
-// 0x000000E3 System.String System.Security.Cryptography.AsnEncodedData::SubjectKeyIdentifierExtension(System.Boolean)
+// 0x000000E5 System.String System.Security.Cryptography.AsnEncodedData::SubjectKeyIdentifierExtension(System.Boolean)
 extern void AsnEncodedData_SubjectKeyIdentifierExtension_m261D32E7AE226499BA8AD3FBE24FC0E71C9DEB76 ();
-// 0x000000E4 System.String System.Security.Cryptography.AsnEncodedData::SubjectAltName(System.Boolean)
+// 0x000000E6 System.String System.Security.Cryptography.AsnEncodedData::SubjectAltName(System.Boolean)
 extern void AsnEncodedData_SubjectAltName_m94FE55170A872B3174D5C495A27AD09F3BACAF49 ();
-// 0x000000E5 System.String System.Security.Cryptography.AsnEncodedData::NetscapeCertType(System.Boolean)
+// 0x000000E7 System.String System.Security.Cryptography.AsnEncodedData::NetscapeCertType(System.Boolean)
 extern void AsnEncodedData_NetscapeCertType_m9191830C380BEC39DBE09065B2A4134193EA92D4 ();
-// 0x000000E6 System.String System.Security.Cryptography.X509Certificates.X509Utils::FindOidInfo(System.UInt32,System.String,System.Security.Cryptography.OidGroup)
+// 0x000000E8 System.String System.Security.Cryptography.X509Certificates.X509Utils::FindOidInfo(System.UInt32,System.String,System.Security.Cryptography.OidGroup)
 extern void X509Utils_FindOidInfo_mE43E0522988511319B8B9F69AF7D0A10B4AE8FA2 ();
-// 0x000000E7 System.String System.Security.Cryptography.X509Certificates.X509Utils::FindOidInfoWithFallback(System.UInt32,System.String,System.Security.Cryptography.OidGroup)
+// 0x000000E9 System.String System.Security.Cryptography.X509Certificates.X509Utils::FindOidInfoWithFallback(System.UInt32,System.String,System.Security.Cryptography.OidGroup)
 extern void X509Utils_FindOidInfoWithFallback_m98443176879ABC2054619D4AA491FE086D406950 ();
-// 0x000000E8 System.Security.Cryptography.AsnEncodedData System.Security.Cryptography.X509Certificates.PublicKey::get_EncodedKeyValue()
+// 0x000000EA System.Security.Cryptography.AsnEncodedData System.Security.Cryptography.X509Certificates.PublicKey::get_EncodedKeyValue()
 extern void PublicKey_get_EncodedKeyValue_m4BD0975B491E89FFE2A75C1ACDEB1DCCAF586D4F ();
-// 0x000000E9 System.Security.Cryptography.AsnEncodedData System.Security.Cryptography.X509Certificates.PublicKey::get_EncodedParameters()
+// 0x000000EB System.Security.Cryptography.AsnEncodedData System.Security.Cryptography.X509Certificates.PublicKey::get_EncodedParameters()
 extern void PublicKey_get_EncodedParameters_m629FF8D7E4EEDED96BC455B7B953DC5A46D26F4F ();
-// 0x000000EA System.Security.Cryptography.Oid System.Security.Cryptography.X509Certificates.PublicKey::get_Oid()
+// 0x000000EC System.Security.Cryptography.Oid System.Security.Cryptography.X509Certificates.PublicKey::get_Oid()
 extern void PublicKey_get_Oid_mB0AD65FDF84716726D5C7756E5B50CEAD1E4C2AE ();
-// 0x000000EB System.Void System.Security.Cryptography.X509Certificates.PublicKey::.cctor()
+// 0x000000ED System.Void System.Security.Cryptography.X509Certificates.PublicKey::.cctor()
 extern void PublicKey__cctor_m9F739A93AE91AE86889835AAE256410F4DB808CC ();
-// 0x000000EC System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor()
+// 0x000000EE System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor()
 extern void X509BasicConstraintsExtension__ctor_m1D3F45762EB686500D2195886AD26FF84E5F4B3C ();
-// 0x000000ED System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
+// 0x000000EF System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
 extern void X509BasicConstraintsExtension__ctor_mEED7AECEE911DF6CE692301F8F6F6B197DC05729 ();
-// 0x000000EE System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor(System.Boolean,System.Boolean,System.Int32,System.Boolean)
+// 0x000000F0 System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor(System.Boolean,System.Boolean,System.Int32,System.Boolean)
 extern void X509BasicConstraintsExtension__ctor_mD08FE3682F4B2EA23450C6609360F45656495780 ();
-// 0x000000EF System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_CertificateAuthority()
+// 0x000000F1 System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_CertificateAuthority()
 extern void X509BasicConstraintsExtension_get_CertificateAuthority_m282E5D9E7640A06AF2CE06A0FA374571F25BAB6F ();
-// 0x000000F0 System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_HasPathLengthConstraint()
+// 0x000000F2 System.Boolean System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_HasPathLengthConstraint()
 extern void X509BasicConstraintsExtension_get_HasPathLengthConstraint_m463A8B4DF4BEB46A9353309AA5EF3EAA2F7A4D42 ();
-// 0x000000F1 System.Int32 System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_PathLengthConstraint()
+// 0x000000F3 System.Int32 System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::get_PathLengthConstraint()
 extern void X509BasicConstraintsExtension_get_PathLengthConstraint_m93EF2B2BA6D6AD72DE59D98EB0E40DDD2AB3B49F ();
-// 0x000000F2 System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+// 0x000000F4 System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
 extern void X509BasicConstraintsExtension_CopyFrom_mE64F232FB7DF702DCDB6692537B8F1010AA316DC ();
-// 0x000000F3 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::Decode(System.Byte[])
+// 0x000000F5 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::Decode(System.Byte[])
 extern void X509BasicConstraintsExtension_Decode_m40A688DD3A933B24A3E9EFE505299F70AFF32E81 ();
-// 0x000000F4 System.Byte[] System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::Encode()
+// 0x000000F6 System.Byte[] System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::Encode()
 extern void X509BasicConstraintsExtension_Encode_m04068558E7AF843C57A8BA9C39E251B7B37A1CDF ();
-// 0x000000F5 System.String System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::ToString(System.Boolean)
+// 0x000000F7 System.String System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::ToString(System.Boolean)
 extern void X509BasicConstraintsExtension_ToString_m75957B2B18A84645897676F0DAC473F022848336 ();
-// 0x000000F6 System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
+// 0x000000F8 System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
 extern void X509EnhancedKeyUsageExtension__ctor_mC91E46E79086AAFCD611FB3A223797D20BA9C1C2 ();
-// 0x000000F7 System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+// 0x000000F9 System.Void System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
 extern void X509EnhancedKeyUsageExtension_CopyFrom_mC206A056C8C59401AA01F8C935DDE27D7E34D96A ();
-// 0x000000F8 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::Decode(System.Byte[])
+// 0x000000FA System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::Decode(System.Byte[])
 extern void X509EnhancedKeyUsageExtension_Decode_m1865B86FE190237641C00804A058BF56F125183D ();
-// 0x000000F9 System.String System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::ToString(System.Boolean)
+// 0x000000FB System.String System.Security.Cryptography.X509Certificates.X509EnhancedKeyUsageExtension::ToString(System.Boolean)
 extern void X509EnhancedKeyUsageExtension_ToString_m99085514587961F4AB1CA3FB82E5223801475818 ();
-// 0x000000FA System.Void System.Security.Cryptography.X509Certificates.X509Extension::.ctor()
+// 0x000000FC System.Void System.Security.Cryptography.X509Certificates.X509Extension::.ctor()
 extern void X509Extension__ctor_m75C6A788965E9C797F3D47DEFEC366EC2F69F384 ();
-// 0x000000FB System.Boolean System.Security.Cryptography.X509Certificates.X509Extension::get_Critical()
+// 0x000000FD System.Boolean System.Security.Cryptography.X509Certificates.X509Extension::get_Critical()
 extern void X509Extension_get_Critical_m8F4D4C2F0ECBE5CB4C9998CE3E56D5040E2EEBE2 ();
-// 0x000000FC System.Void System.Security.Cryptography.X509Certificates.X509Extension::set_Critical(System.Boolean)
+// 0x000000FE System.Void System.Security.Cryptography.X509Certificates.X509Extension::set_Critical(System.Boolean)
 extern void X509Extension_set_Critical_mA2B424FF17DE53E01E586015DD1C742773B060B4 ();
-// 0x000000FD System.Void System.Security.Cryptography.X509Certificates.X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+// 0x000000FF System.Void System.Security.Cryptography.X509Certificates.X509Extension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
 extern void X509Extension_CopyFrom_m03B3EAD99E076090F01D26FF483E827397903A02 ();
-// 0x000000FE System.String System.Security.Cryptography.X509Certificates.X509Extension::FormatUnkownData(System.Byte[])
+// 0x00000100 System.String System.Security.Cryptography.X509Certificates.X509Extension::FormatUnkownData(System.Byte[])
 extern void X509Extension_FormatUnkownData_mE5BAB7DB56CE215EB704A7E4E6866EBECA18F90A ();
-// 0x000000FF System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor()
+// 0x00000101 System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor()
 extern void X509KeyUsageExtension__ctor_mCCDDE2A55EF78832C8117C680FB264CE91893A99 ();
-// 0x00000100 System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
+// 0x00000102 System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
 extern void X509KeyUsageExtension__ctor_mA9DDAD17EA38ABB83CD6CC9A353A0667A9EAC018 ();
-// 0x00000101 System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags,System.Boolean)
+// 0x00000103 System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::.ctor(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags,System.Boolean)
 extern void X509KeyUsageExtension__ctor_mBC544E9444992C7883638DB0B4607945F33E7426 ();
-// 0x00000102 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::get_KeyUsages()
+// 0x00000104 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::get_KeyUsages()
 extern void X509KeyUsageExtension_get_KeyUsages_m9544DC0FAAD02C53D6C649E1831176CB54EFE505 ();
-// 0x00000103 System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+// 0x00000105 System.Void System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
 extern void X509KeyUsageExtension_CopyFrom_m8DA1FA691943CBD4B94E45096E83FC5EA9EEEA3F ();
-// 0x00000104 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::GetValidFlags(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags)
+// 0x00000106 System.Security.Cryptography.X509Certificates.X509KeyUsageFlags System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::GetValidFlags(System.Security.Cryptography.X509Certificates.X509KeyUsageFlags)
 extern void X509KeyUsageExtension_GetValidFlags_m7946BD756F14B17D707EE12E7D82878531D115EB ();
-// 0x00000105 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::Decode(System.Byte[])
+// 0x00000107 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::Decode(System.Byte[])
 extern void X509KeyUsageExtension_Decode_mDE97A425A199661D89FE252A75C8644D4280F1B2 ();
-// 0x00000106 System.Byte[] System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::Encode()
+// 0x00000108 System.Byte[] System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::Encode()
 extern void X509KeyUsageExtension_Encode_mBBF95E13B1FE1A0507FD692F770D6E98A68E3360 ();
-// 0x00000107 System.String System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::ToString(System.Boolean)
+// 0x00000109 System.String System.Security.Cryptography.X509Certificates.X509KeyUsageExtension::ToString(System.Boolean)
 extern void X509KeyUsageExtension_ToString_m4455C1B31C62530B930CFADE55DC0E77C60C7EFC ();
-// 0x00000108 System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor()
+// 0x0000010A System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor()
 extern void X509SubjectKeyIdentifierExtension__ctor_mD586705C293A9C27B5B57BF9CF1D8EAD84864B29 ();
-// 0x00000109 System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
+// 0x0000010B System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
 extern void X509SubjectKeyIdentifierExtension__ctor_m45218EE7D32231FA6C44A40FEC2E5052162012D6 ();
-// 0x0000010A System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Byte[],System.Boolean)
+// 0x0000010C System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Byte[],System.Boolean)
 extern void X509SubjectKeyIdentifierExtension__ctor_m182458124147FFEE402584E6415C2EA407B59C5B ();
-// 0x0000010B System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.String,System.Boolean)
+// 0x0000010D System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.String,System.Boolean)
 extern void X509SubjectKeyIdentifierExtension__ctor_m95DD08883D5E284C15820274737324063C4E4432 ();
-// 0x0000010C System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Boolean)
+// 0x0000010E System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Boolean)
 extern void X509SubjectKeyIdentifierExtension__ctor_m98571FC543622A4BD3EA7788BB132348D9E0A3E3 ();
-// 0x0000010D System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm,System.Boolean)
+// 0x0000010F System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::.ctor(System.Security.Cryptography.X509Certificates.PublicKey,System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierHashAlgorithm,System.Boolean)
 extern void X509SubjectKeyIdentifierExtension__ctor_mF692F46CE97CB60AF86C1A74E709E8276B7D9AB1 ();
-// 0x0000010E System.String System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::get_SubjectKeyIdentifier()
+// 0x00000110 System.String System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::get_SubjectKeyIdentifier()
 extern void X509SubjectKeyIdentifierExtension_get_SubjectKeyIdentifier_m3480A14D8377B6C2D220F99D37AB8B13BEFE76FF ();
-// 0x0000010F System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
+// 0x00000111 System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
 extern void X509SubjectKeyIdentifierExtension_CopyFrom_m45E7EB4E976E4759046077C79FBC4A820C9A95EC ();
-// 0x00000110 System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChar(System.Char)
+// 0x00000112 System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChar(System.Char)
 extern void X509SubjectKeyIdentifierExtension_FromHexChar_m7BDBE176CD85DCA3193FECF78D6CF15E349121BC ();
-// 0x00000111 System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChars(System.Char,System.Char)
+// 0x00000113 System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChars(System.Char,System.Char)
 extern void X509SubjectKeyIdentifierExtension_FromHexChars_mB2D3EBC7E627D44254A82E5628A2079C1DB24C38 ();
-// 0x00000112 System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHex(System.String)
+// 0x00000114 System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHex(System.String)
 extern void X509SubjectKeyIdentifierExtension_FromHex_m654E8BB1D2F9D8C878EF854D7933C6EA825F272B ();
-// 0x00000113 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::Decode(System.Byte[])
+// 0x00000115 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::Decode(System.Byte[])
 extern void X509SubjectKeyIdentifierExtension_Decode_m6EB136D7525F3DFB9FA93F8B3653D2F6FA3B72D1 ();
-// 0x00000114 System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::Encode()
+// 0x00000116 System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::Encode()
 extern void X509SubjectKeyIdentifierExtension_Encode_m11C84A3DCE621526C1FC282E214001D70937D6BD ();
-// 0x00000115 System.String System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::ToString(System.Boolean)
+// 0x00000117 System.String System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::ToString(System.Boolean)
 extern void X509SubjectKeyIdentifierExtension_ToString_mB22086D5277B22093240BB9841D32D9008D26AFA ();
-// 0x00000116 System.Void System.Net.EndPoint::.ctor()
+// 0x00000118 System.Void System.Net.EndPoint::.ctor()
 extern void EndPoint__ctor_mFCD3A4BB994F59D40A3A94A6F1DEC4A731CC8776 ();
-// 0x00000117 System.Void System.Net.IPAddress::.ctor(System.Int64)
+// 0x00000119 System.Void System.Net.IPAddress::.ctor(System.Int64)
 extern void IPAddress__ctor_mFD0AF2F6A282D1158DF3C34EF2E63B73814E7748 ();
-// 0x00000118 System.Void System.Net.IPAddress::.ctor(System.Byte[],System.Int64)
+// 0x0000011A System.Void System.Net.IPAddress::.ctor(System.Byte[],System.Int64)
 extern void IPAddress__ctor_m373D3930BEEA00EC628E98C5A13AE9BE2B2CEC84 ();
-// 0x00000119 System.Void System.Net.IPAddress::.ctor(System.Int32)
+// 0x0000011B System.Void System.Net.IPAddress::.ctor(System.Int32)
 extern void IPAddress__ctor_mCC321EEDA0750DA97447EB60529BCBCB4EA0249D ();
-// 0x0000011A System.Int64 System.Net.IPAddress::get_ScopeId()
+// 0x0000011C System.Int64 System.Net.IPAddress::get_ScopeId()
 extern void IPAddress_get_ScopeId_m941461DEBDECCD858F8D3165F3CA366A318064D9 ();
-// 0x0000011B System.String System.Net.IPAddress::ToString()
+// 0x0000011D System.String System.Net.IPAddress::ToString()
 extern void IPAddress_ToString_m0CAEDDAF2A42F23EB1BE3BB353ABE741486710BF ();
-// 0x0000011C System.Boolean System.Net.IPAddress::Equals(System.Object,System.Boolean)
+// 0x0000011E System.Boolean System.Net.IPAddress::Equals(System.Object,System.Boolean)
 extern void IPAddress_Equals_mADA54686760DE75E2C31B8651224FFEB019316D6 ();
-// 0x0000011D System.Boolean System.Net.IPAddress::Equals(System.Object)
+// 0x0000011F System.Boolean System.Net.IPAddress::Equals(System.Object)
 extern void IPAddress_Equals_mB38BAC1A15885A3181507BC9FD4E8F5765FA6678 ();
-// 0x0000011E System.Int32 System.Net.IPAddress::GetHashCode()
+// 0x00000120 System.Int32 System.Net.IPAddress::GetHashCode()
 extern void IPAddress_GetHashCode_m36CE850AFAAD382A29B7D72844989A3105565D7C ();
-// 0x0000011F System.Void System.Net.IPAddress::.cctor()
+// 0x00000121 System.Void System.Net.IPAddress::.cctor()
 extern void IPAddress__cctor_m4DF372012DF900E7BB489931296D0BFE4EBD4AEA ();
-// 0x00000120 System.Void System.Net.IPv6AddressFormatter::.ctor(System.UInt16[],System.Int64)
+// 0x00000122 System.Void System.Net.IPv6AddressFormatter::.ctor(System.UInt16[],System.Int64)
 extern void IPv6AddressFormatter__ctor_m94725668992E78AA0D75E1C072E8A567E9C34497_AdjustorThunk ();
-// 0x00000121 System.UInt16 System.Net.IPv6AddressFormatter::SwapUShort(System.UInt16)
+// 0x00000123 System.UInt16 System.Net.IPv6AddressFormatter::SwapUShort(System.UInt16)
 extern void IPv6AddressFormatter_SwapUShort_m6B7BA905E96BB0889C580EE25F3614C7A4A9164C ();
-// 0x00000122 System.UInt32 System.Net.IPv6AddressFormatter::AsIPv4Int()
+// 0x00000124 System.UInt32 System.Net.IPv6AddressFormatter::AsIPv4Int()
 extern void IPv6AddressFormatter_AsIPv4Int_m94B06C695C45C85A90F95CAAF4430772EFC16C4F_AdjustorThunk ();
-// 0x00000123 System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Compatible()
+// 0x00000125 System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Compatible()
 extern void IPv6AddressFormatter_IsIPv4Compatible_mDC05432DB57ED01219A35BD1B712E589A527A5FC_AdjustorThunk ();
-// 0x00000124 System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Mapped()
+// 0x00000126 System.Boolean System.Net.IPv6AddressFormatter::IsIPv4Mapped()
 extern void IPv6AddressFormatter_IsIPv4Mapped_m0BEBB1DE4A773028D3091D8321106BE92519A127_AdjustorThunk ();
-// 0x00000125 System.String System.Net.IPv6AddressFormatter::ToString()
+// 0x00000127 System.String System.Net.IPv6AddressFormatter::ToString()
 extern void IPv6AddressFormatter_ToString_mBBBF9A3ABB56F52589BD211DD827015066076C8F_AdjustorThunk ();
-// 0x00000126 System.Int32 System.Net.Sockets.SocketException::WSAGetLastError_internal()
+// 0x00000128 System.Int32 System.Net.Sockets.SocketException::WSAGetLastError_internal()
 extern void SocketException_WSAGetLastError_internal_m18F05CF8D9CE2435225A4215ED757D8D98716FC3 ();
-// 0x00000127 System.Void System.Net.Sockets.SocketException::.ctor()
+// 0x00000129 System.Void System.Net.Sockets.SocketException::.ctor()
 extern void SocketException__ctor_mB16B95B2752EAD626C88A5230C1A8FEB7CF632CA ();
-// 0x00000128 System.Void System.Net.Sockets.SocketException::.ctor(System.Net.Sockets.SocketError)
+// 0x0000012A System.Void System.Net.Sockets.SocketException::.ctor(System.Net.Sockets.SocketError)
 extern void SocketException__ctor_m2687C4EFA4D012280C5D19B89D8D01F97B6A2F1A ();
-// 0x00000129 System.Void System.Net.Sockets.SocketException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x0000012B System.Void System.Net.Sockets.SocketException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void SocketException__ctor_m4C36461DF98089890FBF01908A4AAD301CABE071 ();
-// 0x0000012A System.String System.Net.Sockets.SocketException::get_Message()
+// 0x0000012C System.String System.Net.Sockets.SocketException::get_Message()
 extern void SocketException_get_Message_m50B9DF4BB6F3B20F650E2F965B3DD654C8970378 ();
-// 0x0000012B System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
+// 0x0000012D System.Void System.Collections.Generic.Stack`1::.ctor()
+// 0x0000012E System.Int32 System.Collections.Generic.Stack`1::get_Count()
+// 0x0000012F System.Void System.Collections.Generic.Stack`1::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
+// 0x00000130 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.Stack`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x00000131 System.Collections.IEnumerator System.Collections.Generic.Stack`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000132 T System.Collections.Generic.Stack`1::Peek()
+// 0x00000133 T System.Collections.Generic.Stack`1::Pop()
+// 0x00000134 System.Void System.Collections.Generic.Stack`1::Push(T)
+// 0x00000135 System.Void System.Collections.Generic.Stack`1::ThrowForEmptyStack()
+// 0x00000136 System.Void System.Collections.Generic.Stack`1_Enumerator::.ctor(System.Collections.Generic.Stack`1<T>)
+// 0x00000137 System.Void System.Collections.Generic.Stack`1_Enumerator::Dispose()
+// 0x00000138 System.Boolean System.Collections.Generic.Stack`1_Enumerator::MoveNext()
+// 0x00000139 T System.Collections.Generic.Stack`1_Enumerator::get_Current()
+// 0x0000013A System.Void System.Collections.Generic.Stack`1_Enumerator::ThrowEnumerationNotStartedOrEnded()
+// 0x0000013B System.Object System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x0000013C System.Void System.Collections.Generic.Stack`1_Enumerator::System.Collections.IEnumerator.Reset()
+// 0x0000013D System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
 extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m7C7DB27BC4297A74A96AC53E1EDD3E7415DFB874 ();
-// 0x0000012C System.Void System.Net.Configuration.BypassElementCollection::.ctor()
+// 0x0000013E System.Void System.Net.Configuration.BypassElementCollection::.ctor()
 extern void BypassElementCollection__ctor_m867AF1FE6DBB2768AA199F45039C3E2641A9627A ();
-// 0x0000012D System.Void System.Net.Configuration.ConnectionManagementElementCollection::.ctor()
+// 0x0000013F System.Void System.Net.Configuration.ConnectionManagementElementCollection::.ctor()
 extern void ConnectionManagementElementCollection__ctor_mA29AB3A62411F032C5EF86B16E7633A386000C7B ();
-// 0x0000012E System.Void System.Net.Configuration.ConnectionManagementSection::.ctor()
+// 0x00000140 System.Void System.Net.Configuration.ConnectionManagementSection::.ctor()
 extern void ConnectionManagementSection__ctor_m1112C1BE1A9466BBCDD5C2ED20E80CDE03B46CA4 ();
-// 0x0000012F System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ConnectionManagementSection::get_Properties()
+// 0x00000141 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ConnectionManagementSection::get_Properties()
 extern void ConnectionManagementSection_get_Properties_m1737189D2D78E81728CFF1CCCEB99E1FFFEA3F19 ();
-// 0x00000130 System.Void System.Net.Configuration.DefaultProxySection::.ctor()
+// 0x00000142 System.Void System.Net.Configuration.DefaultProxySection::.ctor()
 extern void DefaultProxySection__ctor_m41EADE87065B61EDF32F67D2E62F04946886DAF6 ();
-// 0x00000131 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.DefaultProxySection::get_Properties()
+// 0x00000143 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.DefaultProxySection::get_Properties()
 extern void DefaultProxySection_get_Properties_m6F70EC02D977EB16F86354188A72DC87A8959555 ();
-// 0x00000132 System.Void System.Net.Configuration.DefaultProxySection::Reset(System.Configuration.ConfigurationElement)
+// 0x00000144 System.Void System.Net.Configuration.DefaultProxySection::Reset(System.Configuration.ConfigurationElement)
 extern void DefaultProxySection_Reset_m54AC9323047B1FB38795C9F466C1C01192F75276 ();
-// 0x00000133 System.Void System.Net.Configuration.ProxyElement::.ctor()
+// 0x00000145 System.Void System.Net.Configuration.ProxyElement::.ctor()
 extern void ProxyElement__ctor_mAFD852231DF0231726E41911409CB2725BE990AC ();
-// 0x00000134 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ProxyElement::get_Properties()
+// 0x00000146 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ProxyElement::get_Properties()
 extern void ProxyElement_get_Properties_m8A3EE4A3EEF2571DE4768730CEF4107331490377 ();
-// 0x00000135 System.Void System.Net.Configuration.HttpWebRequestElement::.ctor()
+// 0x00000147 System.Void System.Net.Configuration.HttpWebRequestElement::.ctor()
 extern void HttpWebRequestElement__ctor_mE3A4CA43FCC72E10B6C7B4920F429C028765E233 ();
-// 0x00000136 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.HttpWebRequestElement::get_Properties()
+// 0x00000148 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.HttpWebRequestElement::get_Properties()
 extern void HttpWebRequestElement_get_Properties_m531EDF2F56823100C47A9EEE1575143E5EB5463C ();
-// 0x00000137 System.Void System.Net.Configuration.Ipv6Element::.ctor()
+// 0x00000149 System.Void System.Net.Configuration.Ipv6Element::.ctor()
 extern void Ipv6Element__ctor_m3F7DF39E6E51517E1429BAE43FA782BF3AF17965 ();
-// 0x00000138 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.Ipv6Element::get_Properties()
+// 0x0000014A System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.Ipv6Element::get_Properties()
 extern void Ipv6Element_get_Properties_m156008D7E5279C50DE4CEDB6D4D3CEDAF2ACF8DC ();
-// 0x00000139 System.Void System.Net.Configuration.NetSectionGroup::.ctor()
+// 0x0000014B System.Void System.Net.Configuration.NetSectionGroup::.ctor()
 extern void NetSectionGroup__ctor_m566D7C9466957BCE3B8FE2D0EA2582CC2F95F269 ();
-// 0x0000013A System.Void System.Net.Configuration.SettingsSection::.ctor()
+// 0x0000014C System.Void System.Net.Configuration.SettingsSection::.ctor()
 extern void SettingsSection__ctor_mC5F3D29EDC94D87B0B0542DE3702795441AC3005 ();
-// 0x0000013B System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SettingsSection::get_Properties()
+// 0x0000014D System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SettingsSection::get_Properties()
 extern void SettingsSection_get_Properties_m1ABB76DEC7441CFEDD4E7EDF99B8F5C258101254 ();
-// 0x0000013C System.Void System.Net.Configuration.PerformanceCountersElement::.ctor()
+// 0x0000014E System.Void System.Net.Configuration.PerformanceCountersElement::.ctor()
 extern void PerformanceCountersElement__ctor_m5A090222699B48BEB5FCC743198613FA8D081083 ();
-// 0x0000013D System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.PerformanceCountersElement::get_Properties()
+// 0x0000014F System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.PerformanceCountersElement::get_Properties()
 extern void PerformanceCountersElement_get_Properties_m3C7B73AC6E5F5E92426D7DC091A2ECE5CFCD9FD0 ();
-// 0x0000013E System.Void System.Net.Configuration.ServicePointManagerElement::.ctor()
+// 0x00000150 System.Void System.Net.Configuration.ServicePointManagerElement::.ctor()
 extern void ServicePointManagerElement__ctor_m61B031714F8498D467B5A0958EE62F73E0C58EB7 ();
-// 0x0000013F System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ServicePointManagerElement::get_Properties()
+// 0x00000151 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.ServicePointManagerElement::get_Properties()
 extern void ServicePointManagerElement_get_Properties_mC1C586246B4FE10AC90622A0CC6A5936D501B677 ();
-// 0x00000140 System.Void System.Net.Configuration.SocketElement::.ctor()
+// 0x00000152 System.Void System.Net.Configuration.SocketElement::.ctor()
 extern void SocketElement__ctor_m428B7094399223FFB9A5B62BF9D8CEA18A00A4C3 ();
-// 0x00000141 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SocketElement::get_Properties()
+// 0x00000153 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SocketElement::get_Properties()
 extern void SocketElement_get_Properties_m9CF8E9B1A9B41B7EC24A4F91CE2E8ECBF317426A ();
-// 0x00000142 System.Void System.Net.Configuration.WebProxyScriptElement::.ctor()
+// 0x00000154 System.Void System.Net.Configuration.WebProxyScriptElement::.ctor()
 extern void WebProxyScriptElement__ctor_mC8AF875E80D96B18AA387148009AE1C630D83591 ();
-// 0x00000143 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebProxyScriptElement::get_Properties()
+// 0x00000155 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebProxyScriptElement::get_Properties()
 extern void WebProxyScriptElement_get_Properties_m8AD25399F804B2D22BC8312102EBC28A0CAE6E26 ();
-// 0x00000144 System.Void System.Net.Configuration.WebRequestModulesSection::.ctor()
+// 0x00000156 System.Void System.Net.Configuration.WebRequestModulesSection::.ctor()
 extern void WebRequestModulesSection__ctor_m0CAB6F207E3B29D65AEA38A6AC191873E3000F02 ();
-// 0x00000145 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModulesSection::get_Properties()
+// 0x00000157 System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModulesSection::get_Properties()
 extern void WebRequestModulesSection_get_Properties_m909A3E4C4A61BFCC9D09F397D9314E5F74F3FE44 ();
-// 0x00000146 System.Void System.Net.Configuration.WebRequestModuleElementCollection::.ctor()
+// 0x00000158 System.Void System.Net.Configuration.WebRequestModuleElementCollection::.ctor()
 extern void WebRequestModuleElementCollection__ctor_m8B880B0EAE7CEF1CB79CD264A9B6D62AB6A22961 ();
-// 0x00000147 System.Void System.Diagnostics.DiagnosticsConfigurationHandler::.ctor()
+// 0x00000159 System.Void System.Diagnostics.DiagnosticsConfigurationHandler::.ctor()
 extern void DiagnosticsConfigurationHandler__ctor_m185BC74B0225A3E16EEB4164923931B79AAA0CF0 ();
-// 0x00000148 System.Object System.Diagnostics.DiagnosticsConfigurationHandler::Create(System.Object,System.Object,System.Xml.XmlNode)
+// 0x0000015A System.Object System.Diagnostics.DiagnosticsConfigurationHandler::Create(System.Object,System.Object,System.Xml.XmlNode)
 extern void DiagnosticsConfigurationHandler_Create_mCC7EF5B43B6913E2429B37EC5923202EBB20AA96 ();
-// 0x00000149 System.Void Unity.ThrowStub::ThrowNotSupportedException()
+// 0x0000015B System.Void Unity.ThrowStub::ThrowNotSupportedException()
 extern void ThrowStub_ThrowNotSupportedException_mF1DE187697F740D8C18B8966BBEB276878CD86FD ();
-static Il2CppMethodPointer s_methodPointers[329] = 
+static Il2CppMethodPointer s_methodPointers[347] = 
 {
 	SR_GetString_m9548BD6DD52DFDB46372F211078AE57FA2401E39,
 	SR_GetString_m9D671CBA422B18D15B8FF59B22DCCEB32E3D16E2,
@@ -848,6 +868,7 @@ static Il2CppMethodPointer s_methodPointers[329] =
 	Stopwatch_get_ElapsedTicks_mABB4710231090C75F057E90A29C71C553077A901,
 	Stopwatch_Start_mF61332B96D7753ADA18366A29E22E2A92E25739A,
 	Stopwatch__cctor_m137C0B2E7182FAEA6E030CD1EDC909E5A3F7A064,
+	ExcludeFromCodeCoverageAttribute__ctor_m6A88F20304C2FA71955F81BA5B06887F7C495ECA,
 	ArrayConverter__ctor_m831D145364A55A155BC896935367961A476D53B7,
 	BooleanConverter__ctor_m8293C29BCB7B90516FFE978C6295C0378C1BFEE4,
 	CollectionConverter__ctor_m86DBE477F4462418329C5CFB45C86A9420F852E7,
@@ -894,6 +915,7 @@ static Il2CppMethodPointer s_methodPointers[329] =
 	OidEnumerator__ctor_mCA4FBC8408E2B04FD0A524E256E284E8A44E0797,
 	OidEnumerator_System_Collections_IEnumerator_get_Current_mF11B1F886842EA79EDB215BD5106D0C4C65EBE53,
 	OidEnumerator_MoveNext_m073D94D5D3254D53DF53429ACAD0AA9BD682221D,
+	OidEnumerator_Reset_m5006C3B1283711E2BDDEA6C25FDF93BBB900195E,
 	CAPI_CryptFindOIDInfoNameFromKey_mA2FD2F391E133E586BC8B827DD916613B590E698,
 	CAPI_CryptFindOIDInfoKeyFromName_m7809CD491D913D58FA1B996B835A0A91C413E9DB,
 	AsnEncodedData__ctor_mED24E9D1F11942741819652302C0531D18C39BE6,
@@ -978,6 +1000,22 @@ static Il2CppMethodPointer s_methodPointers[329] =
 	SocketException__ctor_m2687C4EFA4D012280C5D19B89D8D01F97B6A2F1A,
 	SocketException__ctor_m4C36461DF98089890FBF01908A4AAD301CABE071,
 	SocketException_get_Message_m50B9DF4BB6F3B20F650E2F965B3DD654C8970378,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m7C7DB27BC4297A74A96AC53E1EDD3E7415DFB874,
 	BypassElementCollection__ctor_m867AF1FE6DBB2768AA199F45039C3E2641A9627A,
 	ConnectionManagementElementCollection__ctor_mA29AB3A62411F032C5EF86B16E7633A386000C7B,
@@ -1010,15 +1048,15 @@ static Il2CppMethodPointer s_methodPointers[329] =
 	DiagnosticsConfigurationHandler_Create_mCC7EF5B43B6913E2429B37EC5923202EBB20AA96,
 	ThrowStub_ThrowNotSupportedException_mF1DE187697F740D8C18B8966BBEB276878CD86FD,
 };
-static const int32_t s_InvokerIndices[329] = 
+static const int32_t s_InvokerIndices[347] = 
 {
 	1,
 	2,
 	0,
-	902,
-	903,
-	904,
-	905,
+	906,
+	907,
+	908,
+	909,
 	102,
 	102,
 	102,
@@ -1027,15 +1065,15 @@ static const int32_t s_InvokerIndices[329] =
 	102,
 	109,
 	102,
-	906,
+	910,
 	9,
 	102,
 	23,
 	201,
-	360,
-	360,
-	907,
-	907,
+	364,
+	364,
+	911,
+	911,
 	14,
 	23,
 	31,
@@ -1058,24 +1096,20 @@ static const int32_t s_InvokerIndices[329] =
 	14,
 	99,
 	9,
-	908,
+	912,
 	14,
 	10,
-	821,
+	825,
 	160,
 	23,
-	909,
-	23,
-	148,
-	34,
-	148,
-	910,
-	34,
-	23,
-	911,
-	912,
 	913,
+	23,
+	148,
+	34,
+	148,
 	914,
+	34,
+	23,
 	915,
 	916,
 	917,
@@ -1084,23 +1118,27 @@ static const int32_t s_InvokerIndices[329] =
 	920,
 	921,
 	922,
+	923,
+	924,
+	925,
+	926,
 	186,
 	48,
 	48,
 	48,
 	48,
-	923,
-	924,
-	736,
+	927,
+	928,
+	740,
 	9,
 	9,
 	9,
-	347,
+	351,
 	148,
 	0,
 	59,
-	825,
-	925,
+	829,
+	929,
 	34,
 	148,
 	3,
@@ -1110,13 +1148,13 @@ static const int32_t s_InvokerIndices[329] =
 	26,
 	159,
 	159,
-	926,
-	927,
-	928,
-	929,
 	930,
 	931,
 	932,
+	933,
+	934,
+	935,
+	936,
 	48,
 	48,
 	48,
@@ -1125,7 +1163,7 @@ static const int32_t s_InvokerIndices[329] =
 	14,
 	10,
 	14,
-	558,
+	562,
 	54,
 	49,
 	3,
@@ -1138,36 +1176,36 @@ static const int32_t s_InvokerIndices[329] =
 	0,
 	102,
 	14,
-	558,
+	562,
 	54,
 	35,
-	933,
-	934,
-	934,
-	935,
-	935,
-	198,
-	325,
-	936,
-	935,
 	937,
-	937,
-	933,
-	509,
+	938,
 	938,
 	939,
+	939,
+	198,
+	328,
 	940,
+	939,
 	941,
 	941,
+	937,
+	513,
 	942,
-	88,
 	943,
-	317,
 	944,
-	319,
 	945,
-	933,
+	945,
 	946,
+	88,
+	947,
+	320,
+	948,
+	322,
+	949,
+	937,
+	950,
 	163,
 	26,
 	166,
@@ -1180,6 +1218,7 @@ static const int32_t s_InvokerIndices[329] =
 	130,
 	23,
 	3,
+	23,
 	23,
 	23,
 	23,
@@ -1212,7 +1251,7 @@ static const int32_t s_InvokerIndices[329] =
 	3,
 	23,
 	26,
-	294,
+	295,
 	27,
 	26,
 	14,
@@ -1226,6 +1265,7 @@ static const int32_t s_InvokerIndices[329] =
 	26,
 	14,
 	102,
+	23,
 	152,
 	152,
 	23,
@@ -1233,54 +1273,54 @@ static const int32_t s_InvokerIndices[329] =
 	14,
 	26,
 	26,
-	300,
-	300,
-	300,
-	300,
-	300,
-	300,
-	300,
-	300,
-	947,
-	947,
+	303,
+	303,
+	303,
+	303,
+	303,
+	303,
+	303,
+	303,
+	951,
+	951,
 	14,
 	14,
 	14,
 	3,
 	23,
-	378,
-	948,
+	382,
+	952,
 	102,
 	102,
 	10,
 	26,
 	104,
 	14,
-	300,
-	378,
+	303,
+	382,
 	26,
 	104,
-	300,
+	303,
 	23,
 	102,
 	31,
 	26,
 	28,
 	23,
-	378,
-	562,
+	382,
+	566,
 	10,
 	26,
 	37,
 	104,
 	14,
-	300,
+	303,
 	23,
-	378,
-	378,
-	378,
-	378,
-	294,
+	382,
+	382,
+	382,
+	382,
+	295,
 	14,
 	26,
 	48,
@@ -1288,14 +1328,14 @@ static const int32_t s_InvokerIndices[329] =
 	0,
 	104,
 	14,
-	300,
+	303,
 	23,
 	160,
 	129,
 	32,
 	130,
 	14,
-	400,
+	404,
 	9,
 	10,
 	3,
@@ -1305,11 +1345,27 @@ static const int32_t s_InvokerIndices[329] =
 	102,
 	102,
 	14,
-	507,
+	511,
 	23,
 	32,
 	159,
 	14,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
 	186,
 	23,
 	23,
@@ -1342,18 +1398,35 @@ static const int32_t s_InvokerIndices[329] =
 	166,
 	3,
 };
+static const Il2CppTokenRangePair s_rgctxIndices[2] = 
+{
+	{ 0x0200004C, { 0, 6 } },
+	{ 0x0200004D, { 6, 3 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[9] = 
+{
+	{ (Il2CppRGCTXDataType)3, 5837 },
+	{ (Il2CppRGCTXDataType)2, 14165 },
+	{ (Il2CppRGCTXDataType)3, 5838 },
+	{ (Il2CppRGCTXDataType)3, 5839 },
+	{ (Il2CppRGCTXDataType)3, 5840 },
+	{ (Il2CppRGCTXDataType)3, 5841 },
+	{ (Il2CppRGCTXDataType)3, 5842 },
+	{ (Il2CppRGCTXDataType)3, 5843 },
+	{ (Il2CppRGCTXDataType)2, 10101 },
+};
 extern const Il2CppCodeGenModule g_SystemCodeGenModule;
 const Il2CppCodeGenModule g_SystemCodeGenModule = 
 {
 	"System.dll",
-	329,
+	347,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
 	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
+	2,
+	s_rgctxIndices,
+	9,
+	s_rgctxValues,
 	NULL,
 };

@@ -74,3 +74,4 @@ crashlytics-build.properties
 *.so
 *.o
 il2cpp/Data/unity default resources
+.vscode/launch.json
