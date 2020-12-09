@@ -7,7 +7,9 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        var itr = new Stack<object>().GetEnumerator().GetType();
+        var asm = itr.Assembly;
+        var ap = asm.Location;
     }
 
     // Update is called once per frame

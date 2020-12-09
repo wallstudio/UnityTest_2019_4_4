@@ -14685,7 +14685,7 @@ IL_0026:
 		Assembly_t * L_17 = Assembly_Load_m4640304E91781FC3D197CD014B0C2DCEAFCFFF55(L_16, /*hidden argument*/NULL);
 		String_t* L_18 = __this->get_type_0();
 		NullCheck(L_17);
-		Type_t * L_19 = VirtFuncInvoker1< Type_t *, String_t* >::Invoke(14 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_17, L_18);
+		Type_t * L_19 = VirtFuncInvoker1< Type_t *, String_t* >::Invoke(15 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_17, L_18);
 		V_3 = L_19;
 		RuntimeObject * L_20 = V_0;
 		if (!L_20)
@@ -14741,7 +14741,7 @@ IL_009a:
 		Assembly_t * L_38 = Assembly_Load_m4640304E91781FC3D197CD014B0C2DCEAFCFFF55(L_37, /*hidden argument*/NULL);
 		String_t* L_39 = __this->get_targetTypeName_4();
 		NullCheck(L_38);
-		Type_t * L_40 = VirtFuncInvoker1< Type_t *, String_t* >::Invoke(14 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_38, L_39);
+		Type_t * L_40 = VirtFuncInvoker1< Type_t *, String_t* >::Invoke(15 /* System.Type System.Reflection.Assembly::GetType(System.String) */, L_38, L_39);
 		V_4 = L_40;
 		Type_t * L_41 = V_3;
 		Type_t * L_42 = V_4;
@@ -21584,7 +21584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Exception_get_Source_mF1C5DE7EDD156
 		NullCheck(L_10);
 		Assembly_t * L_11 = VirtFuncInvoker0< Assembly_t * >::Invoke(23 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_10);
 		NullCheck(L_11);
-		AssemblyName_t6F3EC58113268060348EE894DCB46F6EF6BBBB82 * L_12 = VirtFuncInvoker0< AssemblyName_t6F3EC58113268060348EE894DCB46F6EF6BBBB82 * >::Invoke(16 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_11);
+		AssemblyName_t6F3EC58113268060348EE894DCB46F6EF6BBBB82 * L_12 = VirtFuncInvoker0< AssemblyName_t6F3EC58113268060348EE894DCB46F6EF6BBBB82 * >::Invoke(17 /* System.Reflection.AssemblyName System.Reflection.Assembly::GetName() */, L_11);
 		NullCheck(L_12);
 		String_t* L_13 = AssemblyName_get_Name_m6EA5C18D2FF050D3AF58D4A21ED39D161DFF218B_inline(L_12, /*hidden argument*/NULL);
 		__this->set__source_12(L_13);

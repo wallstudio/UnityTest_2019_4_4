@@ -15806,7 +15806,7 @@ IL_0087:
 		String_t* L_29 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String System.TypeName::get_DisplayName() */, TypeName_t0C63929669D92B034691B7E78AF79FA1F8592513_il2cpp_TypeInfo_var, L_28);
 		bool L_30 = ___ignoreCase3;
 		NullCheck(L_27);
-		Type_t * L_31 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(18 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_27, L_29, (bool)0, L_30);
+		Type_t * L_31 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(19 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_27, L_29, (bool)0, L_30);
 		V_1 = L_31;
 	}
 
@@ -20923,7 +20923,7 @@ IL_0135:
 		Assembly_t * L_41 = Assembly_Load_m4640304E91781FC3D197CD014B0C2DCEAFCFFF55(L_40, /*hidden argument*/NULL);
 		String_t* L_42 = __this->get_m_data_5();
 		NullCheck(L_41);
-		Type_t * L_43 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(18 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_41, L_42, (bool)1, (bool)0);
+		Type_t * L_43 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(19 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_41, L_42, (bool)1, (bool)0);
 		return L_43;
 	}
 
@@ -20968,7 +20968,7 @@ IL_0181:
 		Assembly_t * L_49 = Assembly_Load_m4640304E91781FC3D197CD014B0C2DCEAFCFFF55(L_48, /*hidden argument*/NULL);
 		String_t* L_50 = __this->get_m_data_5();
 		NullCheck(L_49);
-		Module_t882FB0C491B9CD194BE7CD1AC62FEFB31EEBE5D7 * L_51 = VirtFuncInvoker1< Module_t882FB0C491B9CD194BE7CD1AC62FEFB31EEBE5D7 *, String_t* >::Invoke(19 /* System.Reflection.Module System.Reflection.Assembly::GetModule(System.String) */, L_49, L_50);
+		Module_t882FB0C491B9CD194BE7CD1AC62FEFB31EEBE5D7 * L_51 = VirtFuncInvoker1< Module_t882FB0C491B9CD194BE7CD1AC62FEFB31EEBE5D7 *, String_t* >::Invoke(20 /* System.Reflection.Module System.Reflection.Assembly::GetModule(System.String) */, L_49, L_50);
 		V_2 = L_51;
 		Module_t882FB0C491B9CD194BE7CD1AC62FEFB31EEBE5D7 * L_52 = V_2;
 		IL2CPP_RUNTIME_CLASS_INIT(Module_t882FB0C491B9CD194BE7CD1AC62FEFB31EEBE5D7_il2cpp_TypeInfo_var);

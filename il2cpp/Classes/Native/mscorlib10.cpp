@@ -19351,7 +19351,7 @@ IL_0011:
 		String_t* L_4 = ___simpleTypeName1;
 		bool L_5 = ___ignoreCase2;
 		NullCheck(L_3);
-		Type_t * L_6 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(18 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_3, L_4, (bool)0, L_5);
+		Type_t * L_6 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(19 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_3, L_4, (bool)0, L_5);
 		return L_6;
 	}
 }

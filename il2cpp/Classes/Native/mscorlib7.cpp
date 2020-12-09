@@ -16835,7 +16835,7 @@ IL_0041:
 		Assembly_t * L_11 = V_1;
 		String_t* L_12 = V_0;
 		NullCheck(L_11);
-		Type_t * L_13 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(18 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_11, L_12, (bool)1, (bool)0);
+		Type_t * L_13 = VirtFuncInvoker3< Type_t *, String_t*, bool, bool >::Invoke(19 /* System.Type System.Reflection.Assembly::GetType(System.String,System.Boolean,System.Boolean) */, L_11, L_12, (bool)1, (bool)0);
 		__this->set_m_reflectedType_1(((RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F *)IsInstClass((RuntimeObject*)L_13, RuntimeType_t40F13BCEAD97478C72C4B40BFDC2A220161CDB8F_il2cpp_TypeInfo_var)));
 		SerializationInfo_t1BB80E9C9DEA52DBF464487234B045E2930ADA26 * L_14 = ___info0;
 		NullCheck(L_14);
@@ -19105,7 +19105,7 @@ IL_000e:
 
 IL_0021:
 	{
-		ModuleU5BU5D_t5A96D0D19A757DE3D576E4EB81BE0FD6326DBB6E* L_5 = VirtFuncInvoker1< ModuleU5BU5D_t5A96D0D19A757DE3D576E4EB81BE0FD6326DBB6E*, bool >::Invoke(20 /* System.Reflection.Module[] System.Reflection.Assembly::GetModules(System.Boolean) */, __this, (bool)1);
+		ModuleU5BU5D_t5A96D0D19A757DE3D576E4EB81BE0FD6326DBB6E* L_5 = VirtFuncInvoker1< ModuleU5BU5D_t5A96D0D19A757DE3D576E4EB81BE0FD6326DBB6E*, bool >::Invoke(21 /* System.Reflection.Module[] System.Reflection.Assembly::GetModules(System.Boolean) */, __this, (bool)1);
 		V_0 = L_5;
 		V_1 = 0;
 		goto IL_0045;
@@ -19169,7 +19169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ModuleU5BU5D_t5A96D0D19A757DE3D576E4EB81BE0FD
 	int32_t V_3 = 0;
 	Module_t882FB0C491B9CD194BE7CD1AC62FEFB31EEBE5D7 * V_4 = NULL;
 	{
-		ModuleU5BU5D_t5A96D0D19A757DE3D576E4EB81BE0FD6326DBB6E* L_0 = VirtFuncInvoker0< ModuleU5BU5D_t5A96D0D19A757DE3D576E4EB81BE0FD6326DBB6E* >::Invoke(17 /* System.Reflection.Module[] System.Reflection.Assembly::GetModulesInternal() */, __this);
+		ModuleU5BU5D_t5A96D0D19A757DE3D576E4EB81BE0FD6326DBB6E* L_0 = VirtFuncInvoker0< ModuleU5BU5D_t5A96D0D19A757DE3D576E4EB81BE0FD6326DBB6E* >::Invoke(18 /* System.Reflection.Module[] System.Reflection.Assembly::GetModulesInternal() */, __this);
 		V_0 = L_0;
 		bool L_1 = ___getResourceModules0;
 		if (L_1)
