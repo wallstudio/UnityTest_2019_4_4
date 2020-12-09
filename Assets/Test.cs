@@ -18,7 +18,7 @@ public class Test : MonoBehaviour
 
     public object DynamicTest()
     {
-        dynamic value = new PowerAccessor(this);
+        dynamic value = (this);
         value.Execute(); 
         return value;
     }
