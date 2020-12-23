@@ -342,8 +342,8 @@ struct MethodBase_t;
 struct MethodInfo_t;
 // System.Reflection.PropertyInfo
 struct PropertyInfo_t;
-// System.Runtime.CompilerServices.CallSite`1<System.Action`2<System.Runtime.CompilerServices.CallSite,System.Object>>
-struct CallSite_1_tBCE1C266CC15AC9D9EC700F6EA16983EB6AB9BAA;
+// System.Runtime.CompilerServices.CallSite`1<System.Func`3<System.Runtime.CompilerServices.CallSite,System.Object,System.Object>>
+struct CallSite_1_t6A67E79AB3B02F151E7B70737DBAA16383D5A756;
 // System.Runtime.InteropServices.UnmanagedType[]
 struct UnmanagedTypeU5BU5D_t89CFC3BAD6D7DB0529718C647AF9D47C3727DB8D;
 // System.Runtime.Serialization.SafeSerializationManager
@@ -448,7 +448,7 @@ IL2CPP_EXTERN_C_END
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t188571242096CC1D2BEFEA0CA619B862EF745D19 
+struct  U3CModuleU3E_tB308A2384DEB86F8845A4E61970976B8944B5DC4 
 {
 public:
 
@@ -457,7 +457,7 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_t6CDDDF959E7E18A6744E43B613F41CDAC780256A 
+struct  U3CModuleU3E_t188571242096CC1D2BEFEA0CA619B862EF745D19 
 {
 public:
 
@@ -475,7 +475,7 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_tB308A2384DEB86F8845A4E61970976B8944B5DC4 
+struct  U3CModuleU3E_t2E16431D825A5D233BFED659B3C516DAB0AC0286 
 {
 public:
 
@@ -484,7 +484,7 @@ public:
 
 
 // <Module>
-struct  U3CModuleU3E_t2E16431D825A5D233BFED659B3C516DAB0AC0286 
+struct  U3CModuleU3E_t6CDDDF959E7E18A6744E43B613F41CDAC780256A 
 {
 public:
 
@@ -3928,17 +3928,43 @@ public:
 struct U3CU3Eo__2_t8592683DC7FF9F753C42240F4DEC79C6A88C471B_StaticFields
 {
 public:
-	// System.Runtime.CompilerServices.CallSite`1<System.Action`2<System.Runtime.CompilerServices.CallSite,System.Object>> Test_<>o__2::<>p__0
-	CallSite_1_tBCE1C266CC15AC9D9EC700F6EA16983EB6AB9BAA * ___U3CU3Ep__0_0;
+	// System.Runtime.CompilerServices.CallSite`1<System.Func`3<System.Runtime.CompilerServices.CallSite,System.Object,System.Object>> Test_<>o__2::<>p__0
+	CallSite_1_t6A67E79AB3B02F151E7B70737DBAA16383D5A756 * ___U3CU3Ep__0_0;
 
 public:
 	inline static int32_t get_offset_of_U3CU3Ep__0_0() { return static_cast<int32_t>(offsetof(U3CU3Eo__2_t8592683DC7FF9F753C42240F4DEC79C6A88C471B_StaticFields, ___U3CU3Ep__0_0)); }
-	inline CallSite_1_tBCE1C266CC15AC9D9EC700F6EA16983EB6AB9BAA * get_U3CU3Ep__0_0() const { return ___U3CU3Ep__0_0; }
-	inline CallSite_1_tBCE1C266CC15AC9D9EC700F6EA16983EB6AB9BAA ** get_address_of_U3CU3Ep__0_0() { return &___U3CU3Ep__0_0; }
-	inline void set_U3CU3Ep__0_0(CallSite_1_tBCE1C266CC15AC9D9EC700F6EA16983EB6AB9BAA * value)
+	inline CallSite_1_t6A67E79AB3B02F151E7B70737DBAA16383D5A756 * get_U3CU3Ep__0_0() const { return ___U3CU3Ep__0_0; }
+	inline CallSite_1_t6A67E79AB3B02F151E7B70737DBAA16383D5A756 ** get_address_of_U3CU3Ep__0_0() { return &___U3CU3Ep__0_0; }
+	inline void set_U3CU3Ep__0_0(CallSite_1_t6A67E79AB3B02F151E7B70737DBAA16383D5A756 * value)
 	{
 		___U3CU3Ep__0_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3Ep__0_0), (void*)value);
+	}
+};
+
+
+// Test_Cache
+struct  Cache_tDD26B932E4284521EBD91C7DBD2C89D7285DD95A  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Cache_tDD26B932E4284521EBD91C7DBD2C89D7285DD95A_StaticFields
+{
+public:
+	// System.Runtime.CompilerServices.CallSite`1<System.Func`3<System.Runtime.CompilerServices.CallSite,System.Object,System.Object>> Test_Cache::Delegate
+	CallSite_1_t6A67E79AB3B02F151E7B70737DBAA16383D5A756 * ___Delegate_0;
+
+public:
+	inline static int32_t get_offset_of_Delegate_0() { return static_cast<int32_t>(offsetof(Cache_tDD26B932E4284521EBD91C7DBD2C89D7285DD95A_StaticFields, ___Delegate_0)); }
+	inline CallSite_1_t6A67E79AB3B02F151E7B70737DBAA16383D5A756 * get_Delegate_0() const { return ___Delegate_0; }
+	inline CallSite_1_t6A67E79AB3B02F151E7B70737DBAA16383D5A756 ** get_address_of_Delegate_0() { return &___Delegate_0; }
+	inline void set_Delegate_0(CallSite_1_t6A67E79AB3B02F151E7B70737DBAA16383D5A756 * value)
+	{
+		___Delegate_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Delegate_0), (void*)value);
 	}
 };
 
@@ -21119,8 +21145,14 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2743[1] =
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2744;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2744 = { sizeof (Test_tD59136436184CD9997A7B05E8FCAF0CB36B7193E), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2745;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize2745 = { sizeof (U3CU3Eo__2_t8592683DC7FF9F753C42240F4DEC79C6A88C471B), -1, sizeof(U3CU3Eo__2_t8592683DC7FF9F753C42240F4DEC79C6A88C471B_StaticFields), 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2745 = { sizeof (Cache_tDD26B932E4284521EBD91C7DBD2C89D7285DD95A), -1, sizeof(Cache_tDD26B932E4284521EBD91C7DBD2C89D7285DD95A_StaticFields), 0 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2745[1] = 
+{
+	Cache_tDD26B932E4284521EBD91C7DBD2C89D7285DD95A_StaticFields::get_offset_of_Delegate_0(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2746;
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize2746 = { sizeof (U3CU3Eo__2_t8592683DC7FF9F753C42240F4DEC79C6A88C471B), -1, sizeof(U3CU3Eo__2_t8592683DC7FF9F753C42240F4DEC79C6A88C471B_StaticFields), 0 };
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2746[1] = 
 {
 	U3CU3Eo__2_t8592683DC7FF9F753C42240F4DEC79C6A88C471B_StaticFields::get_offset_of_U3CU3Ep__0_0(),
 };

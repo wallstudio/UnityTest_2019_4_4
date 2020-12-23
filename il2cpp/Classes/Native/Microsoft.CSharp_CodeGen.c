@@ -6533,7 +6533,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[17] =
 	{ (Il2CppRGCTXDataType)3, 6178 },
 	{ (Il2CppRGCTXDataType)3, 6179 },
 	{ (Il2CppRGCTXDataType)3, 6180 },
-	{ (Il2CppRGCTXDataType)2, 14303 },
+	{ (Il2CppRGCTXDataType)2, 14305 },
 	{ (Il2CppRGCTXDataType)3, 6181 },
 	{ (Il2CppRGCTXDataType)2, 13477 },
 	{ (Il2CppRGCTXDataType)3, 6182 },
